@@ -1,1 +1,1 @@
-It turns the settings into the 
+It turns the settings into the emoji or else it gets the ChatGPT again.
