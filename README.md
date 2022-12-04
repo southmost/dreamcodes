@@ -1,1 +1,3 @@
-It turns the settings into the emoji or else it gets the ChatGPT again.
+# README.md
+
+Sharing is caring.

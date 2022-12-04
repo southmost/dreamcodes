@@ -5,10 +5,10 @@ cypher = {
     'height': '📐',
     'steps': '📊',
     'sampler': '📈',
-    'model': '📉',
-    'Cfg_Scale': '📆',
-    'number_of_images': '📷',
-    'CLIP_Guidance': '📸'
+    'model': '🧫',
+    'cfg_scale': '☯️',
+    'number_of_images': '🖨️',
+    'clip_guidance': '📎'
 }
 
 # Create a dictionary with the cypher values for each variable value
@@ -46,19 +46,19 @@ value_cypher = {
     7: '🌕',
     8: '🌖',
     9: '🌗',
-    True: '🔵',
-    False: '⚪'
+    True: '📸',
+    False: '📷' 
 }
 
 # Define the variables
-width = 786
-height = 786
+width = 768
+height = 768
 steps = 30
-sampler = 'k_euler_ancestral'
+sampler = 'k_dpm_2_ancestral'
 model = 21
-Cfg_Scale = 7
+cfg_scale = 7
 number_of_images = 9
-CLIP_Guidance = True
+clip_guidance = True
 
 # Encode the variable names and values using the cypher dictionaries
 short_code = ''
