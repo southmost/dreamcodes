@@ -3,10 +3,10 @@
 cypher = {
     'width': '📏',
     'height': '📐',
-    'steps': '📊',
-    'sampler': '📈',
+    'steps': '⏲️',
+    'sampler': '🧪',
     'model': '🧫',
-    'cfg_scale': '☯️',
+    'cfg_scale': '🧭',
     'number_of_images': '🖨️',
     'clip_guidance': '📎'
 }
