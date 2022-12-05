@@ -1,4 +1,3 @@
-
 # Create a dictionary with the cypher values for each variable name
 cypher = {
     'width': '📏',
@@ -46,8 +45,35 @@ value_cypher = {
     7: '🌕',
     8: '🌖',
     9: '🌗',
+    21: '🌘',
+    25  : '🌙',
+    30  : '🌚',
+    35  : '🌛',
+    40  : '🌜',
+    45  : '🌝',
+    50  : '🌞',
+    55  : '🌟',
+    60  : '🌠',
+    65  : '🌡️',
+    70  : '🌤️',
+    75  : '🌥️',
+    80  : '🌦️',
+    85  : '🌧️',
+    90  : '🌨️',
+    95  : '🌩️',
+    100 : '🌪️',
+    105 : '🌫️',
+    110 : '🌬️',
+    115 : '🌭',
+    120 : '🌮',
+    125 : '🌯',
+    130 : '🌰',
+    135 : '🌱',
+    140 : '🌲',
+    145 : '🌳',
+    150 : '🌴',
     True: '📸',
-    False: '📷' 
+    False:  '📷'
 }
 
 # Define the variables
@@ -57,7 +83,7 @@ steps = 30
 sampler = 'k_dpm_2_ancestral'
 model = 21
 cfg_scale = 7
-number_of_images = 9
+number_of_images = 4
 clip_guidance = True
 
 # Encode the variable names and values using the cypher dictionaries
