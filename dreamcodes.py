@@ -45,7 +45,6 @@ value_cypher = {
     7: '🌕',
     8: '🌖',
     9: '🌗',
-    21: '🌘',
     25  : '🌙',
     30  : '🌚',
     35  : '🌛',
@@ -87,7 +86,7 @@ number_of_images = 4
 clip_guidance = True
 
 # Encode the variable names and values using the cypher dictionaries
-short_code = ''
+SHORT_CODE = ''
 for variable, value in locals().copy().items():
     if variable == 'cypher' or variable == 'value_cypher':
         continue
@@ -97,7 +96,7 @@ for variable, value in locals().copy().items():
         continue
     encoded_name = cypher[variable]
     encoded_value = value_cypher[value]
-    short_code += f'{encoded_name}{encoded_value}'
+    SHORT_CODE += f'{encoded_name}{encoded_value}'
 
 # Print the short code
-print(short_code)
+print(SHORT_CODE)

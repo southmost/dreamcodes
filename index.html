@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Dreamcodes</title>
+  </head>
+  <body>
+    <h1>Dreamcodes</h1>
+    <form>
+      <label>Width: <input type="number" name="width" value="768" /></label><br />
+      <label>Height: <input type="number" name="height" value="768" /></label><br />
+      <label>Steps: <input type="number" name="steps" value="30" /></label><br />
+      <label>Sampler:
+        <select name="sampler">
+          <option value="k_lms">k_lms</option>
+          <option value="k_euler">k_euler</option>
+          <option value="k_euler_ancestral">k_euler_ancestral</option>
+          <option value="k_dpm_2">k_dpm_2</option>
+          <option value="k_dpm_2_ancestral">k_dpm_2_ancestral</option>
+          <option value="k_heun">k_heun</option>
+          <option value="k_dpmpp_2s_ancestral">k_dpmpp_2s_ancestral</option>
+          <option value="k_dpmpp_2m">k_dpmpp_2m</option>
+          <option value="ddim">ddim</option>
+          <option value="plms">plms</option>
+        </select>
+      </label><br />
+      <label>Model: <input type="number" name="model" value="21" /></label><br />
+      <label>Cfg scale: <input type="number" name="cfg_scale" value="7" /></label><br />
+      <label>Number of images: <input type="number" name="number_of_images" value="4" /></label><br />
+      <label>Clip guidance:
+        <input type="radio" name="clip_guidance" value="true" checked="checked" /> True
+        <input type="radio" name="clip_guidance" value="false" /> False
+      </label><br />
+      <button type="submit">Generate short code</button>
+    </form>
+    <div id="output"></div>
+  </body>
+</html>
